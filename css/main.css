@@ -699,7 +699,10 @@ ul.nav > li > a.active {
    Hero Section
    ========================================================================== */
 .hero-section {
-    background-image: url(../img/Hero-bg.jpg);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/WhatsApp%20Image%202026-09-09%20at%207.34.18%20PM.jpeg");
+
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
